@@ -2,10 +2,6 @@
 
 This code aims to predict the presence or absence of diabetes using the Random Forest Classifier algorithm. It uses a dataset called 'diabetes.csv' containing various features related to diabetes. The goal is to train the classifier on a subset of the data and evaluate its performance.
 
-    Describe the libraries being imported and their purpose. For each library, provide a brief explanation of its functionality. You can use the comments from the code as a reference. For example:
-
-
-
 ## Libraries Used
 
 - pandas: Used for data manipulation and analysis.
@@ -14,8 +10,6 @@ This code aims to predict the presence or absence of diabetes using the Random F
 - seaborn: Another library for data visualization, often used in conjunction with matplotlib.
 
     Explain the steps involved in the code. You can provide a high-level overview of each step and its significance. Here's an example:
-
-
 
 ## Code Explanation
 
