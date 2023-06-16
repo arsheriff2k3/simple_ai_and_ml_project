@@ -53,7 +53,7 @@ This code demonstrates the use of the Random Forest Classifier algorithm for dia
 That's it in machine learning.
 
 
-Diabetes Prediction using Neural Networks
+## Diabetes Prediction using Neural Networks
 
 This repository contains code for training a neural network model to predict diabetes using the Pima Indians Diabetes Dataset. The code is implemented using TensorFlow and Keras.
 Dataset
@@ -70,15 +70,6 @@ To run the code, make sure you have the following dependencies installed:
 You can install these dependencies using pip:
 
 pip install tensorflow numpy scikit-learn
-
-Usage
-
-    Clone the repository:
-
-bash
-
-git clone https://github.com/your-username/diabetes-prediction.git
-cd diabetes-prediction
 
     Run the code:
 
