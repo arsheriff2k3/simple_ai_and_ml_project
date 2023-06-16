@@ -53,3 +53,57 @@ This code demonstrates the use of the Random Forest Classifier algorithm for dia
 That's it in machine learning.
 
 
+Diabetes Prediction using Neural Networks
+
+This repository contains code for training a neural network model to predict diabetes using the Pima Indians Diabetes Dataset. The code is implemented using TensorFlow and Keras.
+Dataset
+
+The dataset used for training the model is diabetesclean.csv. It contains 768 instances with 9 columns, including 8 features (inputs) and 1 target variable (label). The features represent different medical measurements, while the label indicates whether a person has diabetes or not.
+Installation
+
+To run the code, make sure you have the following dependencies installed:
+
+    TensorFlow (version 2.10.0 or higher)
+    NumPy
+    scikit-learn
+
+You can install these dependencies using pip:
+
+pip install tensorflow numpy scikit-learn
+
+Usage
+
+    Clone the repository:
+
+bash
+
+git clone https://github.com/your-username/diabetes-prediction.git
+cd diabetes-prediction
+
+    Run the code:
+
+python diabetes_prediction.py
+
+This will train the neural network model using the dataset and display the loss and accuracy for each epoch.
+
+    Adjusting the model:
+
+Feel free to modify the architecture of the neural network by changing the number of layers, the number of units in each layer, and the activation functions. You can also experiment with different optimization algorithms and loss functions by modifying the model.compile() function.
+
+    Evaluating the model:
+
+After training, the model will be evaluated using the test dataset. The final accuracy of the model will be displayed.
+Contributing
+
+If you'd like to contribute to this project, please follow these steps:
+
+    Fork the repository
+    Create a new branch
+    Make your changes and commit them
+    Push the changes to your forked repository
+    Submit a pull request
+
+License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
+Acknowledgments
